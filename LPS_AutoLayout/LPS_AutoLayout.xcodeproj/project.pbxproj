@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E062C49021F0DEAD008988C2 /* CantanteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062C48F21F0DEAD008988C2 /* CantanteViewController.swift */; };
+		E062C49421F0E0DA008988C2 /* Cantante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062C49321F0E0DA008988C2 /* Cantante.swift */; };
+		E062C49821F0E2DA008988C2 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062C49721F0E2DA008988C2 /* Serie.swift */; };
+		E062C49A21F0E680008988C2 /* CantanteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062C49921F0E680008988C2 /* CantanteTableViewCell.swift */; };
+		E062C49C21F0EB96008988C2 /* SerieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062C49B21F0EB96008988C2 /* SerieTableViewCell.swift */; };
+		E062C49E21F0EC73008988C2 /* SerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062C49D21F0EC73008988C2 /* SerieViewController.swift */; };
 		E0B5BB5D21E5109400E09AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5BB5C21E5109400E09AEF /* AppDelegate.swift */; };
 		E0B5BB5F21E5109400E09AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5BB5E21E5109400E09AEF /* ViewController.swift */; };
 		E0B5BB6221E5109400E09AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B5BB6021E5109400E09AEF /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E062C48F21F0DEAD008988C2 /* CantanteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantanteViewController.swift; sourceTree = "<group>"; };
+		E062C49321F0E0DA008988C2 /* Cantante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cantante.swift; sourceTree = "<group>"; };
+		E062C49721F0E2DA008988C2 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		E062C49921F0E680008988C2 /* CantanteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantanteTableViewCell.swift; sourceTree = "<group>"; };
+		E062C49B21F0EB96008988C2 /* SerieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieTableViewCell.swift; sourceTree = "<group>"; };
+		E062C49D21F0EC73008988C2 /* SerieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieViewController.swift; sourceTree = "<group>"; };
 		E0B5BB5921E5109400E09AEF /* LPS_AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPS_AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B5BB5C21E5109400E09AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0B5BB5E21E5109400E09AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				E0B5BB5C21E5109400E09AEF /* AppDelegate.swift */,
+				E062C49721F0E2DA008988C2 /* Serie.swift */,
 				E0B5BB5E21E5109400E09AEF /* ViewController.swift */,
+				E062C49D21F0EC73008988C2 /* SerieViewController.swift */,
 				E0B5BB6021E5109400E09AEF /* Main.storyboard */,
+				E062C49321F0E0DA008988C2 /* Cantante.swift */,
+				E062C48F21F0DEAD008988C2 /* CantanteViewController.swift */,
+				E062C49B21F0EB96008988C2 /* SerieTableViewCell.swift */,
+				E062C49921F0E680008988C2 /* CantanteTableViewCell.swift */,
 				E0B5BB6321E510D800E09AEF /* Assets.xcassets */,
 				E0B5BB6521E510D800E09AEF /* LaunchScreen.storyboard */,
 				E0B5BB6821E510D800E09AEF /* Info.plist */,
@@ -136,7 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B5BB5F21E5109400E09AEF /* ViewController.swift in Sources */,
+				E062C49C21F0EB96008988C2 /* SerieTableViewCell.swift in Sources */,
 				E0B5BB5D21E5109400E09AEF /* AppDelegate.swift in Sources */,
+				E062C49E21F0EC73008988C2 /* SerieViewController.swift in Sources */,
+				E062C49821F0E2DA008988C2 /* Serie.swift in Sources */,
+				E062C49A21F0E680008988C2 /* CantanteTableViewCell.swift in Sources */,
+				E062C49021F0DEAD008988C2 /* CantanteViewController.swift in Sources */,
+				E062C49421F0E0DA008988C2 /* Cantante.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
